@@ -1,0 +1,54 @@
+body {
+    background-image: linear-gradient(#00AC78, #00714F);
+    color: white;
+}
+
+header,
+footer {
+    background-color: #00714F;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 5px 5px 5px #00AC78;
+}
+
+img {
+    filter: blur(10px);
+    max-width: 100%;
+}
+
+img:hover {
+    max-width: 100%;
+    filter: grayscale(0.7) brightness(1);
+}
+
+.card {
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #00714F;
+    border: 1px solid #00714F;
+}
+
+.transform:hover {
+    background-color: #00714F;
+    transform: scale(1.01) rotate(-5deg);
+    transition: 0.5s ease-in-out;
+}
+
+.transform:not(:hover) {
+    transition: 0.5s ease-out;
+}
+
+.content {
+    border: 2px solid #78d8bb;
+    background-color: #396f5f;
+    overflow: auto;
+    padding: 2px;
+    margin: auto;
+    color: #00AC78;
+}

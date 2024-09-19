@@ -1,0 +1,23 @@
+.left,
+.middle,
+.right {
+    width: 30%;
+    padding: 1rem;
+    margin: 1.5%;
+    float: left;
+    background-color: #396f5f;
+    border: 2px solid #78d8bb;
+}
+
+@media screen and (max-width: 756px) {
+    .left,
+.middle,
+.right {
+    width: 97%;
+    padding: 1rem;
+    margin: auto;
+    float: none;
+    background-color: #396f5f;
+    border: none;
+}
+}
